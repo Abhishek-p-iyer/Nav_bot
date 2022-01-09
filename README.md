@@ -7,11 +7,11 @@ In this project, I have modelled a basic 2 wheeled bot structure using Fusion 36
 Running the package 
 Open up a terminal and give the following command
 
-**roslaunch New_bot_description gazebo.launch
+**roslaunch New_bot_description gazebo.launch**
 
 Now that the bot and envrionment are ready we can go ahead and launch the navigation file
 
-**roslaunch New_bot_description new_bot_nav.launch
+**roslaunch New_bot_description new_bot_nav.launch**
 
 After launching, you need to use the 2D nav goal tool in Rviz and the bot will plan the path and avoid objects. 
 
