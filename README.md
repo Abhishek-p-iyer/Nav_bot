@@ -4,17 +4,27 @@
 In this project, I have modelled a basic 2 wheeled bot structure using Fusion 360 and exported the CAD model into ros using a python script that converts ROS Fusion files into ROS packages which includes the basic launch files to launch the bot in Gazebo and Rviz. After which we model the environment for our bot to interact with.
 
 Running the package 
-Open up a terminal and give the following command
 
-**roslaunch New_bot_description gazebo.launch**
+Open up a terminal and give the following command
+1. Run catkin_make in your terminal 
+
+
+**<ROS_Workspace_location>$catkin_make**
+
+Open up another terminal and execute the following command 
+
+2. Launching the bot into Gazebo
+
+
+**$roslaunch New_bot_description gazebo.launch**
 
 ![gazebo](https://user-images.githubusercontent.com/67633494/148681401-9867a560-8426-4735-a6a6-0d683127e403.png)
 
 
+3. Launching all the necessary navigation files
 
-Now that the bot and envrionment are ready we can go ahead and launch the navigation file
 
-**roslaunch New_bot_description new_bot_nav.launch**
+**$roslaunch New_bot_description new_bot_nav.launch**
 
 ![2nd](https://user-images.githubusercontent.com/67633494/148681587-3b76f35e-c3fd-489e-9c02-5a868303c906.png)
 
