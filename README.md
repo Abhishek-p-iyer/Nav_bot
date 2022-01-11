@@ -1,4 +1,4 @@
-#Autonomous Navigation of a 2 wheeled bot using ROS
+# Autonomous Navigation of a 2 wheeled bot using ROS
 
 
 In this project, I have modelled a basic 2 wheeled bot structure using Fusion 360 and exported the CAD model into ros using a python script that converts ROS Fusion files into ROS packages which includes the basic launch files to launch the bot in Gazebo and Rviz. After which we model the environment for our bot to interact with.
