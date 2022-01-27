@@ -3,9 +3,9 @@
 
 In this project, I have modelled a basic 2 wheeled bot structure using Fusion 360 and exported the CAD model into ros using a python script that converts ROS Fusion files into ROS packages which includes the basic launch files to launch the bot in Gazebo and Rviz. After which we model the environment for our bot to interact with.
 
-Running the package 
+## RUNNING THE PACKAGE
 
-Open up a terminal and give the following command
+Open up a terminal and copy the following command
 
 
 
@@ -40,5 +40,5 @@ After launching, you need to use the 2D nav goal tool in Rviz and the bot will p
 ![3rd](https://user-images.githubusercontent.com/67633494/148681745-8015f411-48e5-4c75-997c-ed010cfddc34.png)
   
 
-NOTE: Please ignore Gazebo's warning of package names starting with a capital letter as it does not affect the performance of the bot. 
+> NOTE: Please ignore Gazebo's warning of package names starting with a capital letter as it does not affect the performance of the bot. 
 
