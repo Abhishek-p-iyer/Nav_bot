@@ -6,6 +6,9 @@ In this project, I have modelled a basic 2 wheeled bot structure using Fusion 36
 Running the package 
 
 Open up a terminal and give the following command
+
+
+
 Step-1: Run catkin_make in your terminal 
 
 ```
